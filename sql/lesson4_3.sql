@@ -79,7 +79,7 @@ SELECT *
 FROM student
 WHERE NOT name='小黃'
 
-
+/*第1個字為小的*/
 SELECT *
 FROM student
 WHERE name LIKE '小%'
