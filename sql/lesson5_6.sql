@@ -11,3 +11,8 @@ CREATE TABLE IF NOT EXISTS stations(
 	gps VARCHAR(50),
 	youbike BOOL
 );
+
+SELECT * FROM stations;
+
+SELECT COUNT(*) AS 筆數
+FROM stations;
