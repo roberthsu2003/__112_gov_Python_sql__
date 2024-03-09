@@ -21,3 +21,11 @@ FROM payment LEFT JOIN customer USING (customer_id)
 GROUP BY full_name
 ORDER BY 總合 DESC;
 
+
+SELECT first_name || ' ' || last_name AS full_name,
+	   SUM(amount) AS 總合
+FROM payment LEFT JOIN customer USING (customer_id)
+GROUP BY full_name
+HAVING SUM(amount) >= 200
+ORDER BY 總合 DESC;
+
