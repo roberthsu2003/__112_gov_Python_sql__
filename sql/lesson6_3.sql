@@ -9,3 +9,15 @@ FROM payment
 GROUP BY customer_id
 ORDER BY 總合 DESC;
 
+SELECT first_name || ' ' || last_name AS full_name,
+	   SUM(amount) AS 總合
+FROM payment LEFT JOIN customer ON payment.customer_id=customer.customer_id
+GROUP BY full_name
+ORDER BY 總合 DESC;
+
+SELECT first_name || ' ' || last_name AS full_name,
+	   SUM(amount) AS 總合
+FROM payment LEFT JOIN customer USING (customer_id)
+GROUP BY full_name
+ORDER BY 總合 DESC;
+
