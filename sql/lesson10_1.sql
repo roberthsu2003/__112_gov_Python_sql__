@@ -1,4 +1,4 @@
-DROP TABLE student;
+DROP TABLE IF EXISTS student;
 
 CREATE TABLE IF NOT EXISTS student(
 	id SERIAL PRIMARY KEY,
@@ -10,3 +10,6 @@ CREATE TABLE IF NOT EXISTS student(
 
 INSERT INTO student(name, chinese, english, math)
 VALUES('徐國堂',60,72,85);
+
+SELECT *
+FROM student
