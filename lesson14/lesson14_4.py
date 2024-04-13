@@ -19,6 +19,6 @@ def get_contacts() -> list:
             return contacts
         
 
-source_data = get_contacts()
+source_data:list[dict] = get_contacts()
 
 st.dataframe(source_data,width=1200)
