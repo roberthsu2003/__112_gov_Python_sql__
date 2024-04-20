@@ -32,6 +32,9 @@ select * from 聯絡人;
 SELECT 聯絡人id,客戶名稱,聯絡人姓名,電話,郵件
 FROM 聯絡人 LEFT JOIN 客戶 ON 聯絡人.客戶id = 客戶.客戶_id
 
+SELECT DISTINCT 客戶名稱
+FROM 聯絡人 LEFT JOIN 客戶 ON 聯絡人.客戶id = 客戶.客戶_id
+
 
 SELECT 聯絡人id,客戶名稱,聯絡人姓名,電話,郵件
 FROM 聯絡人 LEFT JOIN 客戶 ON 聯絡人.客戶id = 客戶.客戶_id
