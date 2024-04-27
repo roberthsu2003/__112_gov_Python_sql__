@@ -14,3 +14,6 @@
 #### [2024_04_13_下午](https://youtube.com/live/VdPbLGUR9_Y)
 #### [2024_04_20_早上](https://youtube.com/live/498TamFvDek)
 #### [2024_04_20_下午](https://youtube.com/live/2_Agn7ROxhk)
+#### [2024_04_27_早上](https://youtube.com/live/g5-4Z-cwB4I)
+#### [2024_04_27_下午](https://youtube.com/live/zs6baTJLFIU)
+
